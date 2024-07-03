@@ -1,10 +1,28 @@
-const EventEmitter = require('node:events');
-const eventEmitter = new EventEmitter();
+const EventEmitter = require('events')
 
-eventEmitter.on('start', (start, end) => {
-    setTimeout(() => console.log(`started from ${start} to ${end}`),2000)
-    
-  });
+const myEmitter = new EventEmitter();
 
-module.exports = {eventEmitter}
+function greetHandler(name) {
+  console.log('Hello ' + name);
+}
+
+function goodbyeHandler(name) {
+  console.log('Goodbye ' + name);
+}
+
+// Register event listeners
+myEmitter.on('greet', greetHandler);
+myEmitter.on('goodbye', goodbyeHandler);
+
+// Emit events
+myEmitter.emit('greet', 'John');
+myEmitter.emit('goodbye', 'John');
+
+// Error handling
+myEmitter.on('error', (err) => {
+  console.log('An Error Occured:', err);
+});
+
+// Simulate error
+myEmitter.emit('error', new Error('Something went wrong'));
   
