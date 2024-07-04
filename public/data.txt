@@ -1,0 +1,8 @@
+----------------------------071395356799718804600187
+Content-Disposition: form-data; name="file"; filename="data.txt"
+Content-Type: text/plain
+
+my name is mani
+im from odisha 
+my mother toung is telgu
+----------------------------071395356799718804600187--

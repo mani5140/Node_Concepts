@@ -1,0 +1,45 @@
+----------------------------696712568955293307082697
+Content-Disposition: form-data; name="file"; filename="currency.csv"
+Content-Type: text/csv
+
+Code,Symbol,Name
+AED,د.إ,United Arab Emirates d
+AFN,؋,Afghan afghani
+ALL,L,Albanian lek
+AMD,AMD,Armenian dram
+ANG,ƒ,Netherlands Antillean gu
+AOA,Kz,Angolan kwanza
+ARS,$,Argentine peso
+AUD,$,Australian dollar
+AWG,Afl.,Aruban florin
+AZN,AZN,Azerbaijani manat
+BAM,KM,Bosnia and Herzegovina 
+BBD,$,Barbadian dollar
+BDT,৳ ,Bangladeshi taka
+BGN,лв.,Bulgarian lev
+BHD,.د.ب,Bahraini dinar
+BIF,Fr,Burundian franc
+BMD,$,Bermudian dollar
+BND,$,Brunei dollar
+BOB,Bs.,Bolivian boliviano
+BRL,R$,Brazilian real
+BSD,$,Bahamian dollar
+BTC,฿,Bitcoin
+BTN,Nu.,Bhutanese ngultrum
+BWP,P,Botswana pula
+BYR,Br,Belarusian ruble (old)'
+BYN,Br,Belarusian ruble
+BZD,$,Belize dollar
+CAD,$,Canadian dollar
+CDF,Fr,Congolese franc
+CHF,CHF,Swiss franc
+CLP,$,Chilean peso
+CNY,¥,Chinese yuan
+COP,$,Colombian peso
+CRC,₡,Costa Rican colón
+CUC,$,Cuban convertible peso')
+CUP,$,Cuban peso
+CVE,$,Cape Verdean escudo
+CZK,Kč,Czech koruna
+
+----------------------------696712568955293307082697--
