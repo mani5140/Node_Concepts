@@ -5,7 +5,6 @@ const PORT = 8000;
 
 const server = http.createServer(async (req, res) => {
   try {
-    // Check if GET request
     if (req.method === 'GET') {
       let filePath;
       if (req.url === '/') {
